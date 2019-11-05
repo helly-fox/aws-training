@@ -20,7 +20,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test --env=node"
+    "test": "react-scripts test --env=node",
+    "upload": "node -r dotenv/config ./scripts/upload.js ./build",
+    "download": "node -r dotenv/config ./scripts/download.js ./download",
+    "list": "node -r dotenv/config ./scripts/list.js",
+    "push-static": "npm run build && npm run upload"
   },
   "browserslist": {
     "production": [

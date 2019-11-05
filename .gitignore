@@ -11,4 +11,5 @@ download
 .DS_Store
 .idea
 npm-debug.log
-bucket-list.cvs
+bucket-list.csv
+.env
